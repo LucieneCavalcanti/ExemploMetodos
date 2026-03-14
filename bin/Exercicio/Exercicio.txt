@@ -1,0 +1,17 @@
+Faça um programa em Java que receba os dados dos alunos de uma turma.
+Cada aluno possui os seguintes dados:
+    nome, idade, curso, nota
+
+o programa deverá cadastrar uma quantidade indeterminada de 
+alunos (do-while), fazendo a validação de cada entrada de dados 
+da seguinte forma:
+    - nome de conter pelo menos 6 caracteres
+    - idade maior que 18 anos
+    - curso AGRO, INFO, ADS, OUTROS
+    - nota entre 0 e 100
+
+Calcule e mostre os 5 primeiros aprovados no vestibular, utilizando a 
+estrutura de vetores, da seguinte forma:
+final int COLOCADOS = 5;
+String nomes[] = new String[COLOCADOS];
+int notas[] = new int[COLOCADOS];
